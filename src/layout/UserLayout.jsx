@@ -6411,7 +6411,364 @@ const ALL_TOOLS = [
   },
 
   //Government
- 
+
+  { name: "OCCRP Data Portal", category: "Government", desc: "Access to data.occrp.org for global organized crime and corruption reporting.", url: "https://data.occrp.org" },
+  { name: "The Pegasus Project | OCCRP", category: "Government", desc: "Database and investigations regarding the Pegasus spyware project.", url: "#" },
+  { name: "Political Email Leaks Database", category: "Government", desc: "Includes archives for: Macron Campaign Emails, DNC email database, GI Files, and AKP email database.", url: "#" },
+  { name: "COP26 Registered Attendees", category: "Government", desc: "List of officially registered attendees for the COP26 climate summit.", url: "#" },
+
+  { name: "MuckRock", category: "Government", desc: "Platform to file, track, and share public records requests (FOIA).", url: "https://www.muckrock.com" },
+  { name: "GovSalaries & Openpayrolls.com", category: "Government", desc: "Massive national databases for US government employee salaries.", url: "https://govsalaries.com" },
+  { name: "Nonprofit Explorer", category: "Government", desc: "ProPublica's tool to search tax returns of tax-exempt organizations.", url: "https://projects.propublica.org/nonprofits/" },
+  { name: "LittleSis", category: "Government", desc: "Database tracking connections between politicians and business leaders.", url: "https://littlesis.org" },
+  { name: "Coronavirus Bailouts", category: "Government", desc: "Tracker for companies and entities that received COVID-19 bailout funds.", url: "#" },
+  { name: "Nursing Home Inspect", category: "Government", desc: "Database of nursing home safety inspections and violations.", url: "https://projects.propublica.org/nursing-homes/" },
+  { name: "Scotussearch.com", category: "Government", desc: "Search engine for Supreme Court of the United States (SCOTUS) records.", url: "https://scotussearch.com" },
+  { name: "HEALTHCARE EDUCATION PROVIDERS", category: "Government", desc: "Database of official healthcare education providers and institutions.", url: "#" },
+
+  { name: "California Public Salaries", category: "Government", desc: "Includes: Greater Sacramento Area Public Salaries.", url: "#" },
+  { name: "Illinois & Wisconsin Public Salaries", category: "Government", desc: "Includes: Illinois Public Salaries, Milwaukee Wisconsin City Employee Salaries 2019.", url: "#" },
+  { name: "Kentucky Public Salaries", category: "Government", desc: "Includes: Lexington KY Employee Salaries 2021, KY State Salary 2019, UKY Salaries 2019.", url: "#" },
+  { name: "Missouri & Alabama Public Salaries", category: "Government", desc: "Includes: St. Louis County salaries fiscal 2020, Mobile AL Salaries Search.", url: "#" },
+  { name: "North Carolina Public Salaries", category: "Government", desc: "Includes: NC State Government Salaries, NC State Employee Overtime 2018, UNC System employees with the biggest paychecks.", url: "#" },
+  { name: "New York & Mass. Public Salaries", category: "Government", desc: "Includes: SeeThroughNY :: Pensions, MA Middlesex County City employee salary 2019, Worcester MA Employee Gross Pay.", url: "#" },
+  { name: "Pennsylvania Public Salaries (County-Level)", category: "Government", desc: "Includes: PA Perry County 2017, Gettysburg Adams County 2017, Lebanon County PA 2017, Dauphin County PA 2017, York City PA Compensation.", url: "#" },
+  { name: "Texas & Virginia Public Salaries", category: "Government", desc: "Includes: Texas Local Superintendent Salaries, Baytown TX Employee Directory, York County VA 2017 Public Salaries.", url: "#" },
+
+  { name: "Pennsylvania Education Records", category: "Government", desc: "Includes: PA 2017 Certificate Actions (Education), First Philadelphia Preparatory Charter School Staff 2017, PA School Districts Deeds user-facing search.", url: "#" },
+  { name: "Cal Poly Email Search", category: "Government", desc: "Directory search for Cal Poly university emails.", url: "#" },
+  { name: "OH Court Costs", category: "Government", desc: "Database for searching Ohio court costs and fee structures.", url: "#" },
+  { name: "Dutchess and Ulster Bridge Safety Ratings", category: "Government", desc: "2015 safety ratings and inspection data for bridges in Dutchess and Ulster counties.", url: "#" },
+  { name: "Lou Barletta 2017 Donors", category: "Government", desc: "Campaign finance database of donors for Lou Barletta (2017).", url: "#" },
+
+  { name: "German Gov Employee Database", category: "Government", desc: "Directory/database of government employees in Germany.", url: "#" },
+  { name: "Brazilian Address CEP Search", category: "Government", desc: "Official lookup tool for Brazilian postal codes (CEP) and addresses.", url: "#" },
+  { name: "Darpan NGO Search (India)", category: "Government", desc: "Indian government portal to verify and track registered NGOs.", url: "https://ngodarpan.gov.in" },
+
+
+  //Vehicle / Transportation
+  {
+    name: "CARFAX",
+    category: "Vehicle / Transportation",
+    desc: "The industry standard for comprehensive, paid vehicle history reports, including accident history, service records, and ownership changes.",
+    url: "https://www.carfax.com"
+  },
+  {
+    name: "CarVertical",
+    category: "Vehicle / Transportation",
+    desc: "Provides detailed vehicle history reports decoded from VINs, utilizing blockchain technology to ensure data integrity.",
+    url: "https://www.carvertical.com"
+  },
+  {
+    name: "Bumper",
+    category: "Vehicle / Transportation",
+    desc: "A powerful search platform for vehicle history, comprehensive owner information, and specification lookups.",
+    url: "https://www.bumper.com"
+  },
+  {
+    name: "iSeeCars",
+    category: "Vehicle / Transportation",
+    desc: "Advanced VIN decoder that not only provides history but also includes deep pricing analytics and market data.",
+    url: "https://www.iseecars.com"
+  },
+  {
+    name: "VehicleHistory.com & VINCheck.info",
+    category: "Vehicle / Transportation",
+    desc: "Reliable, free VIN lookup services and vehicle history reports for quick preliminary investigations.",
+    url: "https://www.vehiclehistory.com"
+  },
+  {
+    name: "EpicVIN",
+    category: "Vehicle / Transportation",
+    desc: "Offers both free basic VIN checks and detailed premium vehicle history reports.",
+    url: "https://epicvin.com"
+  },
+
+  //Blockchain / Crypto Investigation
+
+  {
+    name: "On-Chain-Investigations-Tools-List",
+    category: "Blockchain / Crypto Investigation",
+    desc: "Comprehensive list of tools for investigating crypto hacks and security incidents.",
+    url: "#"
+  },
+  {
+    name: "Chainalysis",
+    category: "Blockchain / Crypto Investigation",
+    desc: "Blockchain data platform for investigators.",
+    url: "https://www.chainalysis.com"
+  },
+  {
+    name: "Elliptic",
+    category: "Blockchain / Crypto Investigation",
+    desc: "Crypto compliance and investigation tools.",
+    url: "https://www.elliptic.co"
+  },
+  {
+    name: "Crystal Blockchain",
+    category: "Blockchain / Crypto Investigation",
+    desc: "Blockchain analytics platform.",
+    url: "https://crystalblockchain.com"
+  },
+  {
+    name: "OXT.me",
+    category: "Blockchain / Crypto Investigation",
+    desc: "Bitcoin blockchain explorer with analysis tools.",
+    url: "https://oxt.me"
+  },
+  {
+    name: "WalletExplorer",
+    category: "Blockchain / Crypto Investigation",
+    desc: "Bitcoin wallet tracking and analysis.",
+    url: "https://www.walletexplorer.com"
+  },
+  {
+    name: "BTC Parser",
+    category: "Blockchain / Crypto Investigation",
+    desc: "Bitcoin transaction analysis tool.",
+    url: "https://btcparser.com"
+  },
+  {
+    name: "Breadcrumbs",
+    category: "Blockchain / Crypto Investigation",
+    desc: "Blockchain investigation platform.",
+    url: "https://www.breadcrumbs.app"
+  },
+  {
+    name: "Nansen",
+    category: "Blockchain / Crypto Investigation",
+    desc: "Blockchain analytics with wallet labels.",
+    url: "https://www.nansen.ai"
+  },
+  {
+    name: "Arkham Intelligence",
+    category: "Blockchain / Crypto Investigation",
+    desc: "Crypto intelligence and entity tracking.",
+    url: "https://arkhamintelligence.com"
+  },
+  {
+    name: "Chainabuse",
+    category: "Blockchain / Crypto Investigation",
+    desc: "Report and search crypto scam addresses.",
+    url: "https://www.chainabuse.com"
+  },
+  {
+    name: "ScamAlert",
+    category: "Blockchain / Crypto Investigation",
+    desc: "Database of crypto scam addresses.",
+    url: "https://scamalert.io"
+  },
+  {
+    name: "BitRef",
+    category: "Blockchain / Crypto Investigation",
+    desc: "Simple Bitcoin balance checker.",
+    url: "https://bitref.com"
+  },
+  {
+    name: "Ethplorer",
+    category: "Blockchain / Crypto Investigation",
+    desc: "Ethereum token and wallet explorer.",
+    url: "https://ethplorer.io"
+  },
+  {
+    name: "Solscan",
+    category: "Blockchain / Crypto Investigation",
+    desc: "Solana blockchain explorer.",
+    url: "https://solscan.io"
+  },
+  {
+    name: "Polygonscan",
+    category: "Blockchain / Crypto Investigation",
+    desc: "Polygon blockchain explorer.",
+    url: "https://polygonscan.com"
+  },
+  {
+    name: "BSCScan",
+    category: "Blockchain / Crypto Investigation",
+    desc: "Binance Smart Chain explorer.",
+    url: "https://bscscan.com"
+  },
+
+//OSINT Training / Learning 
+
+  {
+    name: "SANS OSINT",
+    category: "OSINT Training / Learning",
+    desc: "Professional OSINT training courses.",
+    url: "https://www.sans.org/cyber-security-courses/open-source-intelligence/"
+  },
+  {
+    name: "TCM Security OSINT",
+    category: "OSINT Training / Learning",
+    desc: "OSINT fundamentals course.",
+    url: "https://academy.tcm-sec.com/p/osint-fundamentals"
+  },
+  {
+    name: "OSINT Dojo",
+    category: "OSINT Training / Learning",
+    desc: "Free OSINT training resources and challenges.",
+    url: "https://www.osintdojo.com/"
+  },
+  {
+    name: "Trace Labs",
+    category: "OSINT Training / Learning",
+    desc: "Crowdsourced OSINT for missing persons.",
+    url: "https://www.tracelabs.org/"
+  },
+  {
+    name: "Sector035 OSINT Quiz",
+    category: "OSINT Training / Learning",
+    desc: "Test your OSINT skills.",
+    url: "#"
+  },
+  {
+    name: "Geoguessr",
+    category: "OSINT Training / Learning",
+    desc: "Geographic guessing game for OSINT practice.",
+    url: "https://www.geoguessr.com/"
+  },
+  {
+    name: "Sourcing Games",
+    category: "OSINT Training / Learning",
+    desc: "OSINT challenges and puzzles.",
+    url: "https://sourcing.games/"
+  },
+  {
+    name: "HackTheBox OSINT",
+    category: "OSINT Training / Learning",
+    desc: "OSINT challenges in CTF format.",
+    url: "https://www.hackthebox.com/"
+  },
+  {
+    name: "TryHackMe OSINT",
+    category: "OSINT Training / Learning",
+    desc: "Guided OSINT learning rooms.",
+    url: "https://tryhackme.com/"
+  },
+  {
+    name: "CyberDefenders",
+    category: "OSINT Training / Learning",
+    desc: "Blue team challenges including OSINT.",
+    url: "https://cyberdefenders.org/"
+  },
+  {
+    name: "Sofia Santos OSINT Exercises",
+    category: "OSINT Training / Learning",
+    desc: "Collection of OSINT practice exercises.",
+    url: "https://gralhix.com/list-of-osint-exercises/"
+  },
+  {
+    name: "OSINT Games",
+    category: "OSINT Training / Learning",
+    desc: "Interactive OSINT challenges.",
+    url: "#"
+  },
+
+
+  //Bug Bounty / Security Research
+
+  {
+    name: "HackerOne",
+    category: "Bug Bounty / Security Research",
+    desc: "Leading bug bounty and vulnerability coordination platform.",
+    url: "https://www.hackerone.com"
+  },
+  {
+    name: "Bugcrowd",
+    category: "Bug Bounty / Security Research",
+    desc: "Crowdsourced cybersecurity platform for bug bounties and pentesting.",
+    url: "https://www.bugcrowd.com"
+  },
+  {
+    name: "Intigriti",
+    category: "Bug Bounty / Security Research",
+    desc: "European bug bounty and agile penetration testing platform.",
+    url: "https://www.intigriti.com"
+  },
+  {
+    name: "YesWeHack",
+    category: "Bug Bounty / Security Research",
+    desc: "Global bug bounty and VDP (Vulnerability Disclosure Policy) platform.",
+    url: "https://www.yeswehack.com"
+  },
+  {
+    name: "Synack",
+    category: "Bug Bounty / Security Research",
+    desc: "Crowdsourced security testing platform with vetted researchers.",
+    url: "https://www.synack.com"
+  },
+  {
+    name: "Cobalt",
+    category: "Bug Bounty / Security Research",
+    desc: "Pentest as a Service (PtaaS) platform.",
+    url: "https://cobalt.io"
+  },
+  {
+    name: "HackenProof",
+    category: "Bug Bounty / Security Research",
+    desc: "Bug bounty platform tailored specifically for blockchain and crypto projects.",
+    url: "https://hackenproof.com"
+  },
+  {
+    name: "BugBase",
+    category: "Bug Bounty / Security Research",
+    desc: "Bug bounty platform connecting security researchers with companies.",
+    url: "https://bugbase.ai"
+  },
+  {
+    name: "Garak",
+    category: "LLM Security / AI Security",
+    desc: "LLM vulnerability scanner for probing language models.",
+    url: "https://garak.ai"
+  },
+  {
+    name: "PromptFoo",
+    category: "LLM Security / AI Security",
+    desc: "Test and evaluate LLM outputs for security and quality.",
+    url: "https://www.promptfoo.dev"
+  },
+  {
+    name: "PyRIT",
+    category: "LLM Security / AI Security",
+    desc: "Python Risk Identification Toolkit for generative AI by Microsoft.",
+    url: "#"
+  },
+  {
+    name: "LLM Fuzzer",
+    category: "LLM Security / AI Security",
+    desc: "Fuzzing framework for finding vulnerabilities in LLMs.",
+    url: "#"
+  },
+  {
+    name: "AI Exploits",
+    category: "LLM Security / AI Security",
+    desc: "Collection of real-world AI/ML exploits and vulnerabilities.",
+    url: "#"
+  },
+  {
+    name: "Rebuff",
+    category: "LLM Security / AI Security",
+    desc: "Prompt injection detector for LLM applications.",
+    url: "https://rebuff.ai"
+  },
+  {
+    name: "LLM Guard",
+    category: "LLM Security / AI Security",
+    desc: "Security toolkit for LLM interactions with input/output filtering.",
+    url: "https://llm-guard.com"
+  },
+  {
+    name: "NeMo Guardrails",
+    category: "LLM Security / AI Security",
+    desc: "Toolkit for adding programmable guardrails to LLM applications.",
+    url: "https://github.com/NVIDIA/NeMo-Guardrails"
+  },
+  {
+    name: "LangChain Security",
+    category: "LLM Security / AI Security",
+    desc: "Security best practices for LangChain applications.",
+    url: "https://python.langchain.com/docs/security"
+  },
 ];
 
 const CATEGORIES = [
