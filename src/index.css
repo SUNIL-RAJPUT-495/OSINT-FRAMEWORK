@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #020617; /* Deep black-blue */
+    color: #94a3b8;
+  }
+}
+
+@layer utilities {
+  /* Hide Scrollbar */
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+  /* Cyber Grid Background */
+  .bg-cyber-grid {
+    background-image: 
+      linear-gradient(to right, rgba(30, 41, 59, 0.2) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(30, 41, 59, 0.2) 1px, transparent 1px);
+    background-size: 30px 30px;
+  }
+
+  /* Scanline Animation */
+  .scanline {
+    width: 100%;
+    height: 2px;
+    background: rgba(34, 211, 238, 0.1);
+    position: absolute;
+    animation: scan 4s linear infinite;
+    z-index: 50;
+    pointer-events: none;
+  }
+
+  @keyframes scan {
+    0% { top: 0; }
+    100% { top: 100%; }
+  }
+
+  /* Neon Glow */
+  .glow-text-blue {
+    text-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
+  }
+}
